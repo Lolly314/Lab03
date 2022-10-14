@@ -30,7 +30,13 @@ nobel <- read_csv("data/nobel.csv")
 #### Code
 
 ```{r nobel-living}
-#nobel_living <-
+nobel_living <-
+  filter(nobel,
+         !is.na(country),
+         gender != "org",
+         is.na(died_date))
+
+nrow(nobel_living)
 ```
 
 #### Narrative
