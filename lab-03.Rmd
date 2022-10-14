@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Nobel laureates"
-author: "Jena, "
+author: "Jena, Lauren, Adi, Sophia"
 date: "`r Sys.Date()`"
 output: html_document
 ---
