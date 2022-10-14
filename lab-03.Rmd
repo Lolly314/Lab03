@@ -22,7 +22,7 @@ nobel <- read_csv("data/nobel.csv")
 
 #### Narrative
 
-*There are 26 variables and 935 observations.*
+*There are `r nrow(nobel)` variables and `r ncol(nobel)` observations.*
 
 
 ### Exercise 2
@@ -30,7 +30,7 @@ nobel <- read_csv("data/nobel.csv")
 #### Code
 
 ```{r nobel-living}
-# remove this comment and add your code here
+#nobel_living <-
 ```
 
 #### Narrative
